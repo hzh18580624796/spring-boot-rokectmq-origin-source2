@@ -1,0 +1,37 @@
+{
+  "scheduledExecutorService": {
+    "activeCount": 1,
+    "completedTaskCount": 5,
+    "continueExistingPeriodicTasksAfterShutdownPolicy": false,
+    "corePoolSize": 3,
+    "executeExistingDelayedTasksAfterShutdownPolicy": true,
+    "largestPoolSize": 3,
+    "maximumPoolSize": 2147483647,
+    "poolSize": 3,
+    "queue": [],
+    "rejectedExecutionHandler": {},
+    "removeOnCancelPolicy": false,
+    "shutdown": false,
+    "taskCount": 6,
+    "terminated": false,
+    "terminating": false,
+    "threadFactory": {}
+  },
+  "executorService": {
+    "activeCount": 0,
+    "completedTaskCount": 0,
+    "corePoolSize": 3,
+    "largestPoolSize": 0,
+    "maximumPoolSize": 3,
+    "poolSize": 0,
+    "queue": [],
+    "rejectedExecutionHandler": {
+      "$ref": "$.scheduledExecutorService.rejectedExecutionHandler"
+    },
+    "shutdown": false,
+    "taskCount": 0,
+    "terminated": false,
+    "terminating": false,
+    "threadFactory": {}
+  }
+}

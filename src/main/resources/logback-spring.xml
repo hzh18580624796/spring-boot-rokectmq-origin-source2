@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--FIXME 这里不使用logback base.xml。这个里面默认引入了 {CONSOLE appender}不是我想要的appender-->
+    <!--<include resource="org/springframework/boot/logging/logback/base.xml"/>-->
+
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/spring.log}"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+    <!-- 标准输出：console -->
+    <appender name="consolehzh" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoder 默认配置为PatternLayoutEncoder -->
+        <encoder>
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+
+            <!--%clr([%4.10line]){cyan} 打印代码行数-->
+            <pattern>%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint}%clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta}%clr([%15.15t]){faint} %clr(%-30.30logger{19}){cyan} %clr([%4.10line]){faint}%clr([%25.25(%X{hzh-tid})]){magenta}%clr([%25.25(%X{hzh-tid2})]){magenta}%clr(:){faint} %clr(%m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}){faint}</pattern>
+
+        </encoder>
+        <!--顺序在formatFile后面，直接按照默认格式输出就行了-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <!--FIXME level不配置-->
+            <!--FIXME 配置了就是只打印对应级别的日志-->
+            <!--<level>info</level>-->
+            <!--<level>debug</level>-->
+
+        </filter>
+    </appender>
+
+    <!-- formatFile 用LevelFilter控制来实现-->
+    <appender name="formatFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder>
+            <!--<pattern>-->
+                <!--&lt;!&ndash;%d{yyyy-MM-dd HH:mm:ss.SSS}[%thread] %-5level %logger{36} [%4.10line] - %msg%n&ndash;&gt;-->
+                <!--&lt;!&ndash;%d{yyyy-MM-dd HH:mm:ss.SSS}[%thread] %-5level [%-40.40logger{39}] [%4.10line] - %msg%n&ndash;&gt;-->
+
+                <!--&lt;!&ndash;FIXME 专门这样格式化输出，这样的格式，看日志，很清晰&ndash;&gt;-->
+                <!--%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%15.15t] [%-30.30logger{19}] [%4.10line] [%25.25(%X{logId})] &#45;&#45; %msg%n-->
+            <!--</pattern>-->
+            <!--<pattern>%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint}%clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta}%clr([%15.15t]){faint} %clr(%-30.30logger{19}){cyan} %clr([%4.10line]){faint}%clr([%25.25(%X{hzh-tid})]){magenta}%clr([%25.25(%X{hzh-tid2})]){magenta}%clr(:){faint} %clr(%m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}){faint}</pattern>-->
+            <pattern>%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}${LOG_LEVEL_PATTERN:-%5p} ${PID:- }[%15.15t] %-30.30logger{19} [%4.10line][%25.25(%X{hzh-tid})][%25.25(%X{hzh-tid2})]: %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}</pattern>
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily 配置日志所生成的目录以及生成文件名的规则 -->
+            <fileNamePattern>${LOG_PATH}/info-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <MaxHistory>90</MaxHistory>
+            <timeBasedFileNamingAndTriggeringPolicy
+                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>64 MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+    </appender>
+
+
+
+
+
+    <!--root是特殊的logger-->
+    <root level="INFO">
+        <appender-ref ref="consolehzh"/>
+        <appender-ref ref="formatFile"/>
+    </root>
+
+
+</configuration>
+
+
+
+<!--
+%X用于输出和当前线程相关联的NDC(嵌套诊断环境)，在代码中给org.slf4j.MDC添加key/value即可增加新值
+
+示例	说明
+%X	输出所有值
+%X{testKey}	输出testKey所对应的value，且无默认值
+%X{testKey:-}	输出testKey所对应的value，默认为空
+%X{testKey:-aaa}	输出testKey所对应的value，默认为aaa
+-->

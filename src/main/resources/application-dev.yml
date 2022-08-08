@@ -1,0 +1,17 @@
+#RocketMQ:
+rocketmq:
+  producer:
+    isOnOff: on
+    groupName: group1
+    namesrvAddr: 192.168.12.250:9876
+    topic: TRAFFIC_EVENT
+    #tag: test
+    maxMessageSize: 100
+    sendMsgTimeout: 1000
+  consumer:
+    namesrvAddr: 192.168.12.250:9876
+    groupName: group1
+    topic: TRAFFIC_EVENT
+    #tag: test
+    consumeThreadMin: 20
+    consumerThreadMax: 64

@@ -1,0 +1,2128 @@
+{
+  "accessControlContext": {},
+  "allowBeanDefinitionOverriding": true,
+  "allowEagerClassLoading": true,
+  "autowireCandidateResolver": {},
+  "beanDefinitionCount": 122,
+  "beanDefinitionNames": [
+    "org.springframework.context.annotation.internalConfigurationAnnotationProcessor",
+    "org.springframework.context.annotation.internalAutowiredAnnotationProcessor",
+    "org.springframework.context.annotation.internalRequiredAnnotationProcessor",
+    "org.springframework.context.annotation.internalCommonAnnotationProcessor",
+    "org.springframework.context.event.internalEventListenerProcessor",
+    "org.springframework.context.event.internalEventListenerFactory",
+    "springBootSingleApplication",
+    "org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory",
+    "hzhBeanFactoryPostProcessor",
+    "org.springframework.boot.autoconfigure.AutoConfigurationPackages",
+    "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+    "org.springframework.boot.autoconfigure.condition.BeanTypeRegistry",
+    "propertySourcesPlaceholderConfigurer",
+    "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration",
+    "websocketContainerCustomizer",
+    "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration",
+    "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat",
+    "tomcatServletWebServerFactory",
+    "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration",
+    "servletWebServerFactoryCustomizer",
+    "tomcatServletWebServerFactoryCustomizer",
+    "server-org.springframework.boot.autoconfigure.web.ServerProperties",
+    "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+    "org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata",
+    "webServerFactoryCustomizerBeanPostProcessor",
+    "errorPageRegistrarBeanPostProcessor",
+    "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration",
+    "dispatcherServlet",
+    "mainDispatcherServletPathProvider",
+    "spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties",
+    "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration",
+    "dispatcherServletRegistration",
+    "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration",
+    "org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration",
+    "defaultValidator",
+    "methodValidationPostProcessor",
+    "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration",
+    "error",
+    "beanNameViewResolver",
+    "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration",
+    "conventionErrorViewResolver",
+    "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration",
+    "errorAttributes",
+    "basicErrorController",
+    "errorPageCustomizer",
+    "preserveErrorControllerTargetClassPostProcessor",
+    "spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration",
+    "faviconHandlerMapping",
+    "faviconRequestHandler",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration",
+    "requestMappingHandlerAdapter",
+    "requestMappingHandlerMapping",
+    "mvcConversionService",
+    "mvcValidator",
+    "mvcContentNegotiationManager",
+    "mvcPathMatcher",
+    "mvcUrlPathHelper",
+    "viewControllerHandlerMapping",
+    "beanNameHandlerMapping",
+    "resourceHandlerMapping",
+    "mvcResourceUrlProvider",
+    "defaultServletHandlerMapping",
+    "mvcUriComponentsContributor",
+    "httpRequestHandlerAdapter",
+    "simpleControllerHandlerAdapter",
+    "handlerExceptionResolver",
+    "mvcViewResolver",
+    "mvcHandlerMappingIntrospector",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter",
+    "defaultViewResolver",
+    "viewResolver",
+    "welcomePageHandlerMapping",
+    "requestContextFilter",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration",
+    "hiddenHttpMethodFilter",
+    "httpPutFormContentFilter",
+    "org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration",
+    "mbeanExporter",
+    "objectNamingStrategy",
+    "mbeanServer",
+    "org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration",
+    "springApplicationAdminRegistrar",
+    "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration",
+    "standardJacksonObjectMapperBuilderCustomizer",
+    "spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration",
+    "jacksonObjectMapperBuilder",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration",
+    "parameterNamesModule",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration",
+    "jacksonObjectMapper",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration",
+    "jsonComponentModule",
+    "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration",
+    "stringHttpMessageConverter",
+    "spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties",
+    "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration",
+    "mappingJackson2HttpMessageConverter",
+    "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration",
+    "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration",
+    "messageConverters",
+    "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration",
+    "jacksonCodecCustomizer",
+    "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration",
+    "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration",
+    "spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties",
+    "org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration",
+    "spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties",
+    "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration",
+    "restTemplateBuilder",
+    "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration",
+    "tomcatWebServerFactoryCustomizer",
+    "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration",
+    "org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration",
+    "characterEncodingFilter",
+    "localeCharsetMappingsCustomizer",
+    "org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration",
+    "multipartConfigElement",
+    "multipartResolver",
+    "spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties"
+  ],
+  "beanExpressionResolver": {},
+  "beanNamesIterator": [
+    "org.springframework.context.annotation.internalConfigurationAnnotationProcessor",
+    "org.springframework.context.annotation.internalAutowiredAnnotationProcessor",
+    "org.springframework.context.annotation.internalRequiredAnnotationProcessor",
+    "org.springframework.context.annotation.internalCommonAnnotationProcessor",
+    "org.springframework.context.event.internalEventListenerProcessor",
+    "org.springframework.context.event.internalEventListenerFactory",
+    "springBootSingleApplication",
+    "org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory",
+    "hzhBeanFactoryPostProcessor",
+    "org.springframework.boot.autoconfigure.AutoConfigurationPackages",
+    "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+    "org.springframework.boot.autoconfigure.condition.BeanTypeRegistry",
+    "propertySourcesPlaceholderConfigurer",
+    "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration",
+    "websocketContainerCustomizer",
+    "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration",
+    "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat",
+    "tomcatServletWebServerFactory",
+    "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration",
+    "servletWebServerFactoryCustomizer",
+    "tomcatServletWebServerFactoryCustomizer",
+    "server-org.springframework.boot.autoconfigure.web.ServerProperties",
+    "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+    "org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata",
+    "webServerFactoryCustomizerBeanPostProcessor",
+    "errorPageRegistrarBeanPostProcessor",
+    "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration",
+    "dispatcherServlet",
+    "mainDispatcherServletPathProvider",
+    "spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties",
+    "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration",
+    "dispatcherServletRegistration",
+    "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration",
+    "org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration",
+    "defaultValidator",
+    "methodValidationPostProcessor",
+    "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration",
+    "error",
+    "beanNameViewResolver",
+    "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration",
+    "conventionErrorViewResolver",
+    "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration",
+    "errorAttributes",
+    "basicErrorController",
+    "errorPageCustomizer",
+    "preserveErrorControllerTargetClassPostProcessor",
+    "spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration",
+    "faviconHandlerMapping",
+    "faviconRequestHandler",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration",
+    "requestMappingHandlerAdapter",
+    "requestMappingHandlerMapping",
+    "mvcConversionService",
+    "mvcValidator",
+    "mvcContentNegotiationManager",
+    "mvcPathMatcher",
+    "mvcUrlPathHelper",
+    "viewControllerHandlerMapping",
+    "beanNameHandlerMapping",
+    "resourceHandlerMapping",
+    "mvcResourceUrlProvider",
+    "defaultServletHandlerMapping",
+    "mvcUriComponentsContributor",
+    "httpRequestHandlerAdapter",
+    "simpleControllerHandlerAdapter",
+    "handlerExceptionResolver",
+    "mvcViewResolver",
+    "mvcHandlerMappingIntrospector",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter",
+    "defaultViewResolver",
+    "viewResolver",
+    "welcomePageHandlerMapping",
+    "requestContextFilter",
+    "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration",
+    "hiddenHttpMethodFilter",
+    "httpPutFormContentFilter",
+    "org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration",
+    "mbeanExporter",
+    "objectNamingStrategy",
+    "mbeanServer",
+    "org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration",
+    "springApplicationAdminRegistrar",
+    "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration",
+    "standardJacksonObjectMapperBuilderCustomizer",
+    "spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration",
+    "jacksonObjectMapperBuilder",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration",
+    "parameterNamesModule",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration",
+    "jacksonObjectMapper",
+    "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration",
+    "jsonComponentModule",
+    "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration",
+    "stringHttpMessageConverter",
+    "spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties",
+    "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration",
+    "mappingJackson2HttpMessageConverter",
+    "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration",
+    "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration",
+    "messageConverters",
+    "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration",
+    "jacksonCodecCustomizer",
+    "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration",
+    "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration",
+    "spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties",
+    "org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration",
+    "spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties",
+    "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration",
+    "restTemplateBuilder",
+    "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration",
+    "tomcatWebServerFactoryCustomizer",
+    "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration",
+    "org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration",
+    "characterEncodingFilter",
+    "localeCharsetMappingsCustomizer",
+    "org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration",
+    "multipartConfigElement",
+    "multipartResolver",
+    "spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties",
+    "autoConfigurationReport",
+    "org.springframework.boot.context.ContextIdApplicationContextInitializer$ContextId",
+    "springApplicationArguments",
+    "springBootBanner",
+    "springBootLoggingSystem",
+    "environment",
+    "systemProperties",
+    "systemEnvironment",
+    "org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry"
+  ],
+  "beanPostProcessorCount": 4,
+  "beanPostProcessors": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "cacheBeanMetadata": true,
+  "configurationFrozen": false,
+  "customEditors": {},
+  "dependencyComparator": {},
+  "propertyEditorRegistrars": [
+    {}
+  ],
+  "registeredScopeNames": [],
+  "serializationId": "application",
+  "singletonCount": 16,
+  "singletonMutex": {
+    "preserveErrorControllerTargetClassPostProcessor": {},
+    "org.springframework.context.annotation.internalConfigurationAnnotationProcessor": {
+      "order": 2147483647
+    },
+    "propertySourcesPlaceholderConfigurer": {
+      "appliedPropertySources": [
+        {
+          "name": "environmentProperties",
+          "source": {
+            "activeProfiles": [],
+            "conversionService": {},
+            "defaultProfiles": [
+              "default"
+            ],
+            "propertySources": [
+              {
+                "name": "configurationProperties",
+                "source": [
+                  {
+                    "underlyingSource": {
+                      "name": "systemProperties",
+                      "propertyNames": [
+                        "java.runtime.name",
+                        "spring.output.ansi.enabled",
+                        "sun.boot.library.path",
+                        "java.vm.version",
+                        "gopherProxySet",
+                        "java.vm.vendor",
+                        "java.vendor.url",
+                        "java.rmi.server.randomIDs",
+                        "path.separator",
+                        "java.vm.name",
+                        "file.encoding.pkg",
+                        "user.country",
+                        "sun.java.launcher",
+                        "sun.os.patch.level",
+                        "PID",
+                        "java.vm.specification.name",
+                        "user.dir",
+                        "intellij.debug.agent",
+                        "java.runtime.version",
+                        "java.awt.graphicsenv",
+                        "java.endorsed.dirs",
+                        "os.arch",
+                        "java.io.tmpdir",
+                        "line.separator",
+                        "java.vm.specification.vendor",
+                        "os.name",
+                        "sun.jnu.encoding",
+                        "spring.beaninfo.ignore",
+                        "java.library.path",
+                        "jboss.modules.system.pkgs",
+                        "java.specification.name",
+                        "java.class.version",
+                        "sun.management.compiler",
+                        "spring.liveBeansView.mbeanDomain",
+                        "os.version",
+                        "user.home",
+                        "user.timezone",
+                        "java.awt.printerjob",
+                        "file.encoding",
+                        "java.specification.version",
+                        "java.class.path",
+                        "user.name",
+                        "com.sun.management.jmxremote",
+                        "java.vm.specification.version",
+                        "sun.java.command",
+                        "java.home",
+                        "sun.arch.data.model",
+                        "user.language",
+                        "java.specification.vendor",
+                        "awt.toolkit",
+                        "java.vm.info",
+                        "java.version",
+                        "java.ext.dirs",
+                        "sun.boot.class.path",
+                        "java.awt.headless",
+                        "java.vendor",
+                        "spring.application.admin.enabled",
+                        "file.separator",
+                        "java.vendor.url.bug",
+                        "sun.io.unicode.encoding",
+                        "sun.cpu.endian",
+                        "sun.cpu.isalist"
+                      ],
+                      "source": {
+                        "java.runtime.name": "Java(TM) SE Runtime Environment",
+                        "spring.output.ansi.enabled": "always",
+                        "sun.boot.library.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib",
+                        "java.vm.version": "25.201-b09",
+                        "gopherProxySet": "false",
+                        "java.vm.vendor": "Oracle Corporation",
+                        "java.vendor.url": "http://java.oracle.com/",
+                        "java.rmi.server.randomIDs": "true",
+                        "path.separator": ":",
+                        "java.vm.name": "Java HotSpot(TM) 64-Bit Server VM",
+                        "file.encoding.pkg": "sun.io",
+                        "user.country": "CN",
+                        "sun.java.launcher": "SUN_STANDARD",
+                        "sun.os.patch.level": "unknown",
+                        "PID": "13696",
+                        "java.vm.specification.name": "Java Virtual Machine Specification",
+                        "user.dir": "/Users/hezhihong/ideaWork/spring-boot-rokectmq-origin-source",
+                        "intellij.debug.agent": "true",
+                        "java.runtime.version": "1.8.0_201-b09",
+                        "java.awt.graphicsenv": "sun.awt.CGraphicsEnvironment",
+                        "java.endorsed.dirs": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed",
+                        "os.arch": "x86_64",
+                        "java.io.tmpdir": "/var/folders/2_/8wlnwj8x4px3874bsdqdlyyw0000gn/T/",
+                        "line.separator": "\n",
+                        "java.vm.specification.vendor": "Oracle Corporation",
+                        "os.name": "Mac OS X",
+                        "sun.jnu.encoding": "UTF-8",
+                        "spring.beaninfo.ignore": "true",
+                        "java.library.path": "/Users/hezhihong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.",
+                        "jboss.modules.system.pkgs": "com.intellij.rt",
+                        "java.specification.name": "Java Platform API Specification",
+                        "java.class.version": "52.0",
+                        "sun.management.compiler": "HotSpot 64-Bit Tiered Compilers",
+                        "spring.liveBeansView.mbeanDomain": "",
+                        "os.version": "10.13.4",
+                        "user.home": "/Users/hezhihong",
+                        "user.timezone": "Asia/Shanghai",
+                        "java.awt.printerjob": "sun.lwawt.macosx.CPrinterJob",
+                        "file.encoding": "UTF-8",
+                        "java.specification.version": "1.8",
+                        "java.class.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar:/Users/hezhihong/ideaWork/spring-boot-rokectmq-origin-source/target/classes:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot-starter-web/2.0.3.RELEASE/spring-boot-starter-web-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot-starter/2.0.3.RELEASE/spring-boot-starter-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot-starter-logging/2.0.3.RELEASE/spring-boot-starter-logging-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot-starter-json/2.0.3.RELEASE/spring-boot-starter-json-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/boot/spring-boot-starter-tomcat/2.0.3.RELEASE/spring-boot-starter-tomcat-2.0.3.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.31/tomcat-embed-el-8.5.31.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.31/tomcat-embed-websocket-8.5.31.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/hibernate/validator/hibernate-validator/6.0.10.Final/hibernate-validator-6.0.10.Final.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-beans/5.0.7.RELEASE/spring-beans-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-context/5.0.7.RELEASE/spring-context-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-expression/5.0.7.RELEASE/spring-expression-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/rocketmq/rocketmq-client/4.2.0/rocketmq-client-4.2.0.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/rocketmq/rocketmq-common/4.2.0/rocketmq-common-4.2.0.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/rocketmq/rocketmq-remoting/4.2.0/rocketmq-remoting-4.2.0.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/com/alibaba/fastjson/1.2.29/fastjson-1.2.29.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar:/Users/hezhihong/safari下载/apache-maven-3.6.0/repository/org/springframework/spring-jcl/5.0.7.RELEASE/spring-jcl-5.0.7.RELEASE.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Users/hezhihong/Library/Caches/IntelliJIdea2018.3/captureAgent/debugger-agent.jar",
+                        "user.name": "hezhihong",
+                        "com.sun.management.jmxremote": "",
+                        "java.vm.specification.version": "1.8",
+                        "sun.java.command": "com.hzh.app.SpringBootSingleApplication",
+                        "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre",
+                        "sun.arch.data.model": "64",
+                        "user.language": "zh",
+                        "java.specification.vendor": "Oracle Corporation",
+                        "awt.toolkit": "sun.lwawt.macosx.LWCToolkit",
+                        "java.vm.info": "mixed mode",
+                        "java.version": "1.8.0_201",
+                        "java.ext.dirs": "/Users/hezhihong/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java",
+                        "sun.boot.class.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes",
+                        "java.awt.headless": "true",
+                        "java.vendor": "Oracle Corporation",
+                        "spring.application.admin.enabled": "true",
+                        "file.separator": "/",
+                        "java.vendor.url.bug": "http://bugreport.sun.com/bugreport/",
+                        "sun.io.unicode.encoding": "UnicodeBig",
+                        "sun.cpu.endian": "little",
+                        "sun.cpu.isalist": ""
+                      }
+                    }
+                  },
+                  {
+                    "underlyingSource": {
+                      "name": "systemEnvironment",
+                      "propertyNames": [
+                        "JAVA_MAIN_CLASS_13696",
+                        "PATH",
+                        "SHELL",
+                        "PAGER",
+                        "LSCOLORS",
+                        "JAVA_HOME",
+                        "OLDPWD",
+                        "CLICOLOR",
+                        "USER",
+                        "CLASSPATH",
+                        "ZSH",
+                        "TMPDIR",
+                        "SSH_AUTH_SOCK",
+                        "XPC_FLAGS",
+                        "M2_HOME",
+                        "__CF_USER_TEXT_ENCODING",
+                        "Apple_PubSub_Socket_Render",
+                        "LOGNAME",
+                        "LESS",
+                        "LC_CTYPE",
+                        "PWD",
+                        "XPC_SERVICE_NAME",
+                        "HOME"
+                      ],
+                      "source": {
+                        "JAVA_MAIN_CLASS_13696": "com.hzh.app.SpringBootSingleApplication",
+                        "PATH": "/Users/hezhihong/safari下载/apache-maven-3.6.0/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:.:/usr/local/mysql-8.0.15-macos10.14-x86_64/bin",
+                        "SHELL": "/bin/zsh",
+                        "PAGER": "less",
+                        "LSCOLORS": "GxFxCxDxBxegedabagaced",
+                        "JAVA_HOME": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home",
+                        "OLDPWD": "/Applications/IntelliJ IDEA.app/Contents/bin",
+                        "CLICOLOR": "1",
+                        "USER": "hezhihong",
+                        "CLASSPATH": "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/dt.jar:.",
+                        "ZSH": "/Users/hezhihong/.oh-my-zsh",
+                        "TMPDIR": "/var/folders/2_/8wlnwj8x4px3874bsdqdlyyw0000gn/T/",
+                        "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.C28APA7X0H/Listeners",
+                        "XPC_FLAGS": "0x0",
+                        "M2_HOME": "/Users/hezhihong/safari下载/apache-maven-3.6.0",
+                        "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34",
+                        "Apple_PubSub_Socket_Render": "/private/tmp/com.apple.launchd.S39E9I8zAq/Render",
+                        "LOGNAME": "hezhihong",
+                        "LESS": "-R",
+                        "LC_CTYPE": "",
+                        "PWD": "/Users/hezhihong/ideaWork/spring-boot-rokectmq-origin-source",
+                        "XPC_SERVICE_NAME": "com.jetbrains.intellij.2472",
+                        "HOME": "/Users/hezhihong"
+                      }
+                    }
+                  },
+                  {
+                    "underlyingSource": {
+                      "name": "random",
+                      "source": {}
+                    }
+                  },
+                  {
+                    "underlyingSource": {
+                      "name": "applicationConfig: [classpath:/application.properties]",
+                      "propertyNames": [
+                        "server.port",
+                        "suning.rocketmq.producerGroup",
+                        "suning.rocketmq.conumerGroup",
+                        "suning.rocketmq.namesrvaddr"
+                      ],
+                      "source": {
+                        "server.port": {
+                          "origin": {
+                            "location": {
+                              "column": 12,
+                              "line": 1
+                            },
+                            "resource": {
+                              "description": "class path resource [application.properties]",
+                              "file": "/Users/hezhihong/ideaWork/spring-boot-rokectmq-origin-source/target/classes/application.properties",
+                              "filename": "application.properties",
+                              "inputStream": {},
+                              "open": false,
+                              "path": "application.properties",
+                              "readable": true,
+                              "uRI": "file:/Users/hezhihong/ideaWork/spring-boot-rokectmq-origin-source/target/classes/application.properties",
+                              "uRL": "file:/Users/hezhihong/ideaWork/spring-boot-rokectmq-origin-source/target/classes/application.properties"
+                            }
+                          },
+                          "value": "8080"
+                        },
+                        "suning.rocketmq.producerGroup": {
+                          "origin": {
+                            "location": {
+                              "column": 30,
+                              "line": 4
+                            },
+                            "resource": {
+                              "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source.server.port.origin.resource"
+                            }
+                          },
+                          "value": "user-group"
+                        },
+                        "suning.rocketmq.conumerGroup": {
+                          "origin": {
+                            "location": {
+                              "column": 29,
+                              "line": 6
+                            },
+                            "resource": {
+                              "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source.server.port.origin.resource"
+                            }
+                          },
+                          "value": "user-group"
+                        },
+                        "suning.rocketmq.namesrvaddr": {
+                          "origin": {
+                            "location": {
+                              "column": 28,
+                              "line": 8
+                            },
+                            "resource": {
+                              "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source.server.port.origin.resource"
+                            }
+                          },
+                          "value": "localhost:9876"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "servletConfigInitParams",
+                "source": {}
+              },
+              {
+                "name": "servletContextInitParams",
+                "source": {}
+              },
+              {
+                "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource"
+              },
+              {
+                "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource"
+              },
+              {
+                "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource"
+              },
+              {
+                "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource"
+              }
+            ],
+            "systemEnvironment": {
+              "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source"
+            },
+            "systemProperties": {
+              "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source"
+            }
+          }
+        },
+        {
+          "name": "localProperties",
+          "propertyNames": [],
+          "source": {}
+        }
+      ],
+      "order": 2147483647
+    },
+    "springApplicationArguments": {
+      "nonOptionArgs": [],
+      "optionNames": [],
+      "sourceArgs": []
+    },
+    "autoConfigurationReport": {
+      "conditionAndOutcomesBySource": {
+        "org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.aop.AopAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.batch.BatchAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerJpaDependencyConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.CaffeineCacheConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.CouchbaseCacheConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.cache.HazelcastCacheConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.InfinispanCacheConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.JCacheCacheConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.cassandra.CassandraAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.cloud.CloudAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.couchbase.CouchbaseAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.cassandra.CassandraDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.cassandra.CassandraReactiveDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.cassandra.CassandraReactiveRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.cassandra.CassandraRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.couchbase.CouchbaseDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.couchbase.CouchbaseReactiveDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.couchbase.CouchbaseReactiveRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.couchbase.CouchbaseRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.elasticsearch.ElasticsearchRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.ldap.LdapDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.ldap.LdapRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.mongo.MongoReactiveDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.mongo.MongoReactiveRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.mongo.MongoRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.neo4j.Neo4jDataAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.neo4j.Neo4jRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.solr.SolrRepositoriesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.elasticsearch.jest.JestAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.hazelcast.HazelcastAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.hazelcast.HazelcastJpaDependencyAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration#messageConverters": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration#stringHttpMessageConverter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2XmlHttpMessageConverterConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.http.JsonbHttpMessageConvertersConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration#jacksonCodecCustomizer": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.influx.InfluxDbAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration#buildProperties": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration#gitProperties": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration#jacksonObjectMapper": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration#parameterNamesModule": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jdbc.JndiDataSourceAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jersey.JerseyAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jms.JmsAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jms.JndiConnectionFactoryAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jms.activemq.ActiveMQAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jms.artemis.ArtemisAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#mbeanExporter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#mbeanServer": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#objectNamingStrategy": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.jooq.JooqAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.ldap.LdapAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.mail.MailSenderAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.mail.MailSenderValidatorAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.mongo.MongoReactiveAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.quartz.QuartzAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.reactor.core.ReactorCoreAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2ClientAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.security.reactive.WebFluxSecurityConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.sendgrid.SendGridAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.session.SessionAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration#defaultValidator": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration#methodValidationPostProcessor": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration#restTemplateBuilder": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$JettyWebServerFactoryCustomizerConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$UndertowWebServerFactoryCustomizerConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.reactive.HttpHandlerAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.reactive.ReactiveWebServerFactoryAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.reactive.WebFluxAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.reactive.error.ErrorWebFluxAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration#multipartResolver": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration#dispatcherServletRegistration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration#characterEncodingFilter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration#multipartConfigElement": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration#multipartResolver": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedJetty": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedUndertow": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#hiddenHttpMethodFilter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#httpPutFormContentFilter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#beanNameViewResolver": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#defaultViewResolver": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#localeResolver": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#requestContextFilter": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#viewResolver": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration#basicErrorController": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration#errorAttributes": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration#conventionErrorViewResolver": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration#beanNameViewResolver": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration#defaultErrorView": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.webservices.WebServicesAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.websocket.reactive.WebSocketReactiveAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketMessagingAutoConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$JettyWebSocketConfiguration": {
+          "fullMatch": false
+        },
+        "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration#websocketContainerCustomizer": {
+          "fullMatch": true
+        },
+        "org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$UndertowWebSocketConfiguration": {
+          "fullMatch": false
+        }
+      },
+      "exclusions": [],
+      "unconditionalClasses": [
+        "org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration",
+        "org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration",
+        "org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration",
+        "org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration",
+        "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration"
+      ]
+    },
+    "systemEnvironment": {
+      "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source"
+    },
+    "hzhBeanFactoryPostProcessor": {},
+    "org.springframework.boot.autoconfigure.condition.BeanTypeRegistry": {},
+    "org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry": [],
+    "org.springframework.boot.context.ContextIdApplicationContextInitializer$ContextId": {},
+    "org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata": {},
+    "org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory": {
+      "object": {
+        "resourceLoader": {
+          "protocolResolvers": []
+        }
+      },
+      "objectType": "org.springframework.core.type.classreading.CachingMetadataReaderFactory",
+      "singleton": true
+    },
+    "environment": {
+      "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source"
+    },
+    "springBootLoggingSystem": {
+      "loggerConfigurations": [
+        {
+          "configuredLevel": "INFO",
+          "effectiveLevel": "INFO",
+          "name": "ROOT"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "com"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "com.hzh"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "com.hzh.app"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "com.hzh.app.SpringBootSingleApplication"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.catalina"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.catalina.startup"
+        },
+        {
+          "configuredLevel": "ERROR",
+          "effectiveLevel": "ERROR",
+          "name": "org.apache.catalina.startup.DigesterFactory"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.catalina.util"
+        },
+        {
+          "configuredLevel": "ERROR",
+          "effectiveLevel": "ERROR",
+          "name": "org.apache.catalina.util.LifecycleBase"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.coyote"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.coyote.http11"
+        },
+        {
+          "configuredLevel": "WARN",
+          "effectiveLevel": "WARN",
+          "name": "org.apache.coyote.http11.Http11NioProtocol"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.sshd"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.sshd.common"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.sshd.common.util"
+        },
+        {
+          "configuredLevel": "WARN",
+          "effectiveLevel": "WARN",
+          "name": "org.apache.sshd.common.util.SecurityUtils"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.tomcat"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.tomcat.util"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.apache.tomcat.util.net"
+        },
+        {
+          "configuredLevel": "WARN",
+          "effectiveLevel": "WARN",
+          "name": "org.apache.tomcat.util.net.NioSelectorPool"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.eclipse"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.eclipse.jetty"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.eclipse.jetty.util"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.eclipse.jetty.util.component"
+        },
+        {
+          "configuredLevel": "ERROR",
+          "effectiveLevel": "ERROR",
+          "name": "org.eclipse.jetty.util.component.AbstractLifeCycle"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.cfg"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.cfg.context"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.cfg.context.DefaultConstraintMapping"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.ConfigurationImpl"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.ValidatorFactoryImpl"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.ValidatorImpl"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.constraintvalidation"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.constraintvalidation.ClassBasedValidatorDescriptor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorManager"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.groups"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.groups.ValidationOrderGenerator"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.resolver"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.resolver.TraversableResolvers"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.scripting"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.valueextraction"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.valueextraction.ValueExtractorDescriptor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.engine.valueextraction.ValueExtractorResolver"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.aggregated"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.aggregated.CascadingMetaDataBuilder"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.aggregated.rule"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.aggregated.rule.MethodConfigurationRule"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.core"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.core.AnnotationProcessingOptionsImpl"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.core.ConstraintHelper"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.provider"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.provider.ProgrammaticMetaDataProvider"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.raw"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.metadata.raw.ConstrainedExecutable"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.Contracts"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.ExecutableHelper"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.ReflectionHelper"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.TypeHelper"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.TypeVariables"
+        },
+        {
+          "configuredLevel": "WARN",
+          "effectiveLevel": "WARN",
+          "name": "org.hibernate.validator.internal.util.Version"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.privilegedactions"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.util.privilegedactions.LoadClass"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.xml"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.xml.ResourceLoaderHelper"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.xml.ValidationBootstrapParameters"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.internal.xml.ValidationXmlParser"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.messageinterpolation"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.messageinterpolation.AbstractMessageInterpolator"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.resourceloading"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.hibernate.validator.resourceloading.PlatformResourceBundleLocator"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.jboss"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.jboss.logging"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.AbstractNestablePropertyAccessor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.BeanUtils"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.CachedIntrospectionResults"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.ExtendedBeanInfo"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.TypeConverterDelegate"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.parsing"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.parsing.FailFastProblemReporter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.support"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.support.DefaultListableBeanFactory"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.support.DisposableBeanAdapter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.xml"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.xml.DefaultDocumentLoader"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.beans.factory.xml.XmlBeanDefinitionReader"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.BeanDefinitionLoader"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.BeanDefinitionLoader$ClassExcludeFilter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.DefaultApplicationArguments"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.DefaultApplicationArguments$Source"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.SpringApplication"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.AutoConfigurationImportSelector"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackages"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.cache"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.cache.CacheCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.cache.EhCacheCacheConfiguration$ConfigAvailableCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.cache.JCacheCacheConfiguration"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.cache.JCacheCacheConfiguration$JCacheAvailableCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition.BeanTypeRegistry"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition.OnBeanCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition.OnClassCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition.OnPropertyCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition.OnResourceCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.condition.OnWebApplicationCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.context"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration$ResourceBundleCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.info"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration$GitResourceAvailableCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.logging"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.OnEnabledResourceChainCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DefaultDispatcherServletCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet.error"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$ErrorTemplateMissingCondition"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.cloud"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.cloud.CloudFoundryVcapEnvironmentPostProcessor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.FileEncodingApplicationListener"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.config"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.config.ConfigFileApplicationListener"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.logging"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.logging.ClasspathLoggingApplicationListener"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.logging.LoggingApplicationListener"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.properties"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.properties.source"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.diagnostics"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.diagnostics.FailureAnalyzers"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.env"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.env.OriginTrackedMapPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.env.RandomValuePropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.liquibase"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.liquibase.LiquibaseServiceLocatorApplicationListener"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.web"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.web.servlet"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.web.servlet.context"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ClassPathBeanDefinitionScanner"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ComponentScanAnnotationParser"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ComponentScanAnnotationParser$1"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ConfigurationClassEnhancer"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ConfigurationClassParser"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ConfigurationClassPostProcessor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.annotation.ConfigurationClassUtils"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.index"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.index.CandidateComponentsIndexLoader"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.support"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.support.ApplicationListenerDetector"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.support.PropertySourcesPlaceholderConfigurer"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.LocalVariableTableParameterNameDiscoverer"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.SpringProperties"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.MapPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.MutablePropertySources"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.PropertiesPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.PropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.PropertySource$ComparisonPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.PropertySource$StubPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.PropertySourcesPropertyResolver"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.env.SystemEnvironmentPropertySource"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.io"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.io.support"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.io.support.PathMatchingResourcePatternResolver"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.io.support.ResourceArrayPropertyEditor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.io.support.SpringFactoriesLoader"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type.classreading"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type.classreading.RecursiveAnnotationArrayVisitor"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type.filter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type.filter.AnnotationTypeFilter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.core.type.filter.AssignableTypeFilter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.ByteArrayHttpMessageConverter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.ResourceHttpMessageConverter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.StringHttpMessageConverter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.json"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.xml"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.http.converter.xml.SourceHttpMessageConverter"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.util"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.util.PropertyPlaceholderHelper"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.context"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.context.support"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.context.support.ServletContextResourcePatternResolver"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.context.support.StandardServletEnvironment"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.servlet"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.servlet.config"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.servlet.config.annotation"
+        },
+        {
+          "effectiveLevel": "INFO",
+          "name": "org.springframework.web.servlet.config.annotation.WebMvcConfigurer"
+        }
+      ],
+      "shutdownHandler": {},
+      "supportedLogLevels": [
+        "ERROR",
+        "OFF",
+        "TRACE",
+        "DEBUG",
+        "INFO",
+        "WARN"
+      ]
+    },
+    "systemProperties": {
+      "$ref": "$.singletonMutex.propertySourcesPlaceholderConfigurer.null.source.null.null.underlyingSource.source"
+    },
+    "springBootBanner": {}
+  },
+  "singletonNames": [
+    "autoConfigurationReport",
+    "org.springframework.boot.context.ContextIdApplicationContextInitializer$ContextId",
+    "springApplicationArguments",
+    "springBootBanner",
+    "springBootLoggingSystem",
+    "environment",
+    "systemProperties",
+    "systemEnvironment",
+    "org.springframework.context.annotation.internalConfigurationAnnotationProcessor",
+    "org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory",
+    "org.springframework.boot.autoconfigure.condition.BeanTypeRegistry",
+    "org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry",
+    "propertySourcesPlaceholderConfigurer",
+    "hzhBeanFactoryPostProcessor",
+    "org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata",
+    "preserveErrorControllerTargetClassPostProcessor"
+  ],
+  "typeConverter": {}
+}

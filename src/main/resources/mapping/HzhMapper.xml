@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hzh.app.mapper.HzhMapper">
+
+    <select id="seleect" resultType="java.lang.Integer">
+       select count(1) from uuser where id =#f{id}
+    </select>
+
+    <select id="seleectUserTmp" parameterType="com.hzh.app.canal.UserTmp" resultType="com.hzh.app.canal.UserTmp">
+        select * from uuser where 1=1
+        <if test="u.big">
+            and id=#b{u.id}
+        </if>
+
+    </select>
+
+    <select id="allName" resultType="java.lang.String">
+       select name from uuser
+    </select>
+
+    <select id="allUserTmp" resultType="com.hzh.app.canal.UserTmp">
+       select * from uuser_tmp
+    </select>
+
+</mapper>

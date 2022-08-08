@@ -1,0 +1,31 @@
+{
+  "clientDatas": [
+    {
+      "clientIdentity": {
+        "clientId": 1001,
+        "destination": "example",
+        "filter": ""
+      },
+      "cursor": {
+        "identity": {
+          "slaveId": -1,
+          "sourceAddress": {
+            "address": "localhost",
+            "port": 3306
+          }
+        },
+        "postion": {
+          "gtid": "",
+          "included": false,
+          "journalName": "binlog.000076",
+          "position": 19392,
+          "serverId": 1,
+          "timestamp": 1646749514000
+        }
+      }
+    }
+  ],
+  "destination": "example"
+}
+
+

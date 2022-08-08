@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:task="http://www.springframework.org/schema/task"
+
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+        http://www.springframework.org/schema/task
+        http://www.springframework.org/schema/task/spring-task-4.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <!--fixme 这两个后置处理器需要配置，不然无法自动注入-->
+    <bean id="autowiredAnnotationBeanPostProcessor"
+          class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor">
+
+    </bean>
+
+    <bean id="commonAnnotationBeanPostProcessor"
+          class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor">
+
+    </bean>
+    <!--<context:component-scan base-package="com.iscas.demo" />-->
+
+
+    <!--example-->
+    <bean id="x" class="com.hzh.app.circulardependency.X"></bean>
+    <bean id="y" class="com.hzh.app.circulardependency.Y"></bean>
+    <bean id="z" class="com.hzh.app.circulardependency.Z"></bean>
+    <bean id="xBeanFactoryPostProcessor" class="com.hzh.app.circulardependency.XBeanFactoryPostProcessor"></bean>
+
+</beans>

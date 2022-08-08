@@ -1,0 +1,3 @@
+circle=com.hzh.app.spi.Circle
+rect=com.hzh.app.spi.Rect
+adaptivexx=com.hzh.app.spi.AdaptiveShape
